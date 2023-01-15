@@ -20,41 +20,44 @@
                 to help you realize your deepest dreams. Sign up <i>now</i> to get started.
                 <br>
                 <br>
+                <br>
                 You <i>know</i> you want to.
+                <br>
+                <br>
                 <br>
                 <br>
                 <br>
                 Let's do this!
             </p>
-            <form action="#" method="post">
+            <form action="#/" method="post">
                 <div class="first row">
-                    <legend for="first_name">First Name 
-                    </legend>
-                    <input type="text" id="first_name" name="first_name">
-                    <legend for="last_name">Last Name 
-                    </legend>
-                    <input type="text" id="last_name" name="last_name">
+                    <label for="first_name">First Name 
+                    </label>
+                    <input type="text" id="first_name" name="first_name" size="30" required>
+                    <label for="last_name">Last Name 
+                    </label>
+                    <input type="text" id="last_name" name="last_name" size="30" required>
                 </div>
                 <div class="second row">
-                    <legend for="email">Email
-                    </legend>
-                    <input type="email" id="email" name="email" required>
-                    <legend for="phone_number">Phone Number
-                    </legend>
-                    <input type="tel" id="phone_number" name="phone_number" pattern="+[0-9]{3}-[0-9]{3}-[0-9]{4d}" required>
+                    <label for="email">Email <br>
+                    </label>
+                    <input type="email" id="email" name="email" size="30" required>
+                    <label for="phone_number">Phone Number
+                    </label>
+                    <input type="tel" id="phone_number" name="phone_number" pattern="+[0-9]{3}-[0-9]{3}-[0-9]{4l}" size="30" required>
                 </div>
                 <div class="third row">
-                    <legend for="password">Password
-                    </legend>
-                    <input type="password" id="password" name="password" required>
-                    <legend for="confirm_password">Confirm Password 
-                    </legend>
-                    <input type="password" id="confirm_password" name="confirm_password" required>
+                    <label for="password">Password
+                    </label>
+                    <input type="password" id="password" name="password" size="30" required>
+                    <label for="confirm_password">Confirm Password 
+                    </label>
+                    <input type="password" id="confirm_password" name="confirm_password" size="30" required>
                 </div>
                 <button class="btn" type="submit">Create Account</button>
             </form>
             
-            <p class="login">Already have an account? <a href="#">Log in</a> </p>
+            <p class="login">Already have an account? <a href="#/">Log in</a> </p>
         </div>
     </div>
 
