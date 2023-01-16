@@ -151,7 +151,7 @@ input:valid {
     border-color: green;
 }
 
-/* sign up button*/
+/* sign up button styling*/
 .btn {
   appearance: none;
   background-color: #FAFBFC;
@@ -203,6 +203,7 @@ input:valid {
   display: none;
 }
 
+/* label styling */
 label {
     position: relative;
     padding: 5px 0;
@@ -214,3 +215,4 @@ label {
     justify-content: space-evenly;
     color: #7e7e7e;
     min-height: max-content;
+}
