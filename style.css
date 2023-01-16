@@ -85,7 +85,7 @@ img {
     max-height: 100vh;
     overflow: auto;
 }
-
+/* text and input fields styling */
 .main_content {
     margin: 150px 200px 0px 50px;
     font-family: asap;
@@ -140,7 +140,6 @@ input {
     border-radius: 3px;
     padding: 10px; 
     outline: none;
- 
 }
 
 input:focus {
